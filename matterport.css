@@ -1,0 +1,22 @@
+
+#matterport .contenedor{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#matterport article{
+    width: 100%;
+    
+    align-items: center;
+    }
+
+
+#matterport embed{
+width: 100%;
+height: 300px;
+
+}

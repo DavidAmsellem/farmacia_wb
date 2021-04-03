@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,700&display=swap');
+
+
+
+:root{
+    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    --color-primary: #667eea;
+    --color-secondary: #764ba2;
+    --boton-padding: 20px 40px;
+}
+
+
+
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container{
+width: 90%;
+margin: 0 auto;
+max-width: 1200px;
+overflow: hidden;
+padding: 80px 0;
+}
+
+.subtitle{
+ color: var(--color-primary);
+ font-size: 2.5rem;
+ margin-bottom: 35px;
+
+}
+
+
+.hero{
+height: 100vh;
+background-image: var(--background), url('../assets/images/nathaniel-yeo-747NDboAWNY-unsplash.jpg');
+
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position:center;
+position: relative;
+}
+
+.hero .container{
+    padding: 0;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav--footer{
+
+ font-weight: 300;
+ justify-content: flex-start;   
+}
+
+.nav__items{
+color: #fff;
+text-decoration:none;
+margin-right: 10px;
+padding: 10px 15px;
+font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid #fff;
+   
+    position: relative;
+    animation-name: logo;
+    animation-duration: 1s;
+
+}
+
+.nav__items--footer{
+    padding: 10px;
+}
+
+
+.hero__container{
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    color: #fff;
+}
+
+.hero__wave{
+    position: absolute;
+    bottom:  0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+
+}
+
+.hero__texts{
+width: 80%;
+margin-bottom: 50px;
+}
+
+.hero__title{
+font-size: 3.2rem;
+
+}
+
+.hero__subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    margin:15px 0;
+
+}
+
+.hero__cta{
+    display: inline-block;
+    background-color: #fff;
+    padding:  var(--boton-padding);
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 40px;
+
+}
+
+.presentation{
+    padding-top: 0;
+    text-align: center;
+}
+
+.presentation__picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+
+}
+
+.presentation__copy{
+width: 80%;
+margin: 0 auto;
+
+}
+
+.presentation__cta{
+    display: inline-block;
+    margin-top: 30px;
+    background: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+    padding: var(--boton-padding);
+    border-radius: 40px;
+}
+
+.about{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.about__img{
+text-align: center;
+
+}
+
+.about__img--left{
+
+    text-align: left;
+}
+
+.about__picture{
+    max-width: 80%;
+}
+
+.about__paragraph{
+margin-bottom: 20px;
+line-height: 1.5;
+font-weight: 300;
+
+}
+
+.projects{
+
+    background: #f2f2f2;
+}
+
+.projects__grid{
+display: grid;
+height: 550px;
+grid-template-areas: 
+"nastya-dulhiier-ALP8jXJ_bp8-unsplash.jpg nathaniel-yeo-747NDboAWNY-unsplash.jpg national-cancer-institute-KMvoHcB-w5g-unsplash.jpg"
+"national-cancer-institute-KMvoHcB-w5g-unsplash.jpg nathaniel-yeo-747NDboAWNY-unsplash.jpg";
+gap: 10px;
+}
+
+
+
+.projects__item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.projects__img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+@keyframes logo {
+
+    from {
+      margin-left: 0px;
+    }
+  
+    50% {
+      margin-left: 110px;
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.9;
+    }
+  
+    to {
+      margin-left: 200px;
+    }
+  
+  }
+

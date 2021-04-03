@@ -1,0 +1,27 @@
+#blog h2,h3, h4, p{
+    text-align: center;
+}
+
+
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#blog article{
+    justify-content: center;
+    margin: 15px;
+
+}
+
+
+#blog img{
+    margin-top: -15px;
+    width: 100%;
+    max-width: 280px;
+
+}
+
