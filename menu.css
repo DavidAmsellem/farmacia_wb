@@ -102,13 +102,26 @@ header label{
         .menu{
             position: absolute;
             
-            top: 58px;
+            top: 70px;
             left: 0;
             width: 100%;
             
-            background: rgba(00, 00,00, 0.9);
+            background: rgba(255, 255, 255, 0.9);
             transition: all 0.5s;
             transform: translate(+100%);
+        }
+
+        .menu a{
+            display: block;
+            color: rgb(67, 178, 223);
+            height: 60px;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+           
+            padding: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        
         }
        
     }

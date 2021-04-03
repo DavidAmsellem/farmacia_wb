@@ -54,7 +54,7 @@ header{
 
 .headerlad.active{
     
-    background-color:black;
+    background-color:rgb(255, 255, 255);
     opacity: 0.9;
     height: 70px;
     transition: all 0.5s;
@@ -81,8 +81,10 @@ header{
 
 
 .LADlogon.active{
-    margin-top: -4px;
-    display: none;
+    margin-left: 0px;
+    margin-top: -2px;
+    max-width: 100px;
+    max-height: 100px;
     
     }
 
@@ -118,21 +120,27 @@ section{
 
 @media (max-width:380px){
 
-    .LAD-logonb img{
-        margin-top: 4px;
-        margin-left: 21px;
-        max-width: 120px;
-        max-height: 100px;
-        width: 99px;}
+    
 
         .headerlad.active{
     
-            background-color:black;
+            background-color:rgb(255, 255, 255);
             opacity: 0.9;
-            height: 58px;
+            height: 70px;
             transition: all 0.5s;
             
         }
 
+        .LADlogon img{
+  
+            max-width: 80px;
+            max-height: 80px;
+            margin-left: 20px;
+            margin-top: -2px;
+        
+        }
+
+
+        
 
 }
